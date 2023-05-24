@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!--Navbar start-->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="navbar-logo">kopi<span>ku</span></a>
+        <div class="navbar-nav">
+          <a href="#home">Home</a>
+          <a href="#about">Tentang Kami</a>
+          <a href="#menu">Menu</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+        <div class="navbar-extra">
+          <a href="#" id="search"><i data-feather="search"></i></a>
+          <a href="#" id="shopping-cart"
+            ><i data-feather="shopping-cart"></i
+          ></a>
+          <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section start -->
+      <article class="hero" id="home">
+        <div class="content">
+          <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+          <p>"Kopiku, Kenikmatan yang Menghangatkan Jiwa"</p>
+          <a href="#" class="cta">Beli Sekarang</a>
+        </div>
+      </article>
+      <!-- Hero section end -->
+
+      <!-- Tentang Kami section start -->
+      <article class="tentang-kami" id="about">
+        <h1><span>Tentang</span> kami</h1>
+        <div class="row">
+          <div class="about-img">
+            <img src="../img/about-us.jpg" alt="about us" />
+          </div>
+          <div class="content">
+            <h3>Kenapa memilih kopi kami</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+              unde eos minus sunt voluptatem quas dolor eum fugiat numquam quam
+              accusantium quia nihil, laborum ullam aut ea qui rerum voluptas.
+            </p>
+          </div>
+        </div>
+      </article>
+      <!-- Tentang Kami section end -->
+      <article id="menu" class="menu">
+        <h2><span>Menu</span> Kami</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam ratione
+          hic enim itaque, maxime, molestias, accusantium unde cum commodi saepe
+          exercitationem ea! Aliquid, harum at modi libero cumque atque
+          provident!
+        </p>
+        <div class="menu-food-container">
+          <figure>
+            <img src="../img/food1.jpg" alt="food1" />
+            <figcaption>35k</figcaption>
+            <figcaption>-Pancake-</figcaption>
+          </figure>
+          <figure>
+            <img src="../img/food2.jpg" alt="food2" />
+            <figcaption>35k</figcaption>
+            <figcaption>-Salad-</figcaption>
+          </figure>
+          <figure>
+            <img src="../img/food3.jpg" alt="food3" />
+            <figcaption>35k</figcaption>
+            <figcaption>-Strawbery d3.Cake-</figcaption>
+          </figure>
+          <figure>
+            <img src="../img/food4.jpg" alt="food4" />
+            <figcaption>35k</figcaption>
+            <figcaption>-Espreso-</figcaption>
+          </figure>
+        </div>
+      </article>
+      <article id="kontak" class="kontak">
+        <h2><span>Kontak</span> Kami</h2>
+        <div class="container-kontak">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.604242032956!2d101.42255985!3d0.5246364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e0!4m0!4m0!5e0!3m2!1sid!2sid!4v1684935100994!5m2!1sid!2sid"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <form class="contact">
+            <div class="input-group">
+              <i data-feather="user"></i>
+              <input type="text" placeholder="Nama" />
+            </div>
+            <div class="input-group">
+              <i data-feather="phone"></i>
+              <input type="text" placeholder="No HP" />
+            </div>
+            <div class="input-group">
+              <i data-feather="mail"></i>
+              <input type="text" placeholder="Email" />
+            </div>
+            <button type="submit" class="btn">Kirim</button>
+          </form>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="socials">
+        <a><i data-feather="instagram"></i></a>
+        <a><i data-feather="facebook"></i></a>
+        <a><i data-feather="twitter"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+      <p>&copy; 2023 kopiku. All rights reserved</p>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
